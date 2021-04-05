@@ -374,6 +374,9 @@ a.btn.bt1 {
 .gray_block {
 	padding-bottom: 49px;
 	background-color: #ebebeb;
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .block2  {
