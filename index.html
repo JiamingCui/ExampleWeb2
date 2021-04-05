@@ -164,15 +164,16 @@
 			<div class="container_12">
 				<div class="grid_4">
 					<div class="block2">
-						<time datetime="2021-02-01"><span class="col1">2021</span>February</time>
-						<div class="">
-							<div class="extra_wrapper">
-								<div class="title col1"><a href="#">National PREVENT symposium</a></div>
+						<time datetime="2021-02-01"><span class="">2021</span>February</time>
+							<div class="">
+								<div class="extra_wrapper">
+									<button class="title collapsible col1">National PREVENT symposium</button>
+								</div>
 							</div>
-						</div>
-						<div class="clear"></div>
-						<p>Aditya is co-organizing the National PREVENT symposium on pandemic prevention and prediction, on behalf of multiple directorates of the NSF. Please join us and register at (or send Aditya an email). We have a terrific set of speakers and participants.</p>
-						<a href="#" class="col1">read more</a>
+							<div class="content">
+								<p>Aditya is co-organizing the National PREVENT symposium on pandemic prevention and prediction, on behalf of multiple directorates of the NSF. Please join us and register at (or send Aditya an email). We have a terrific set of speakers and participants.</p>
+							</div>
+							<a href="#" class="col1">read more</a>
 					</div>
 				</div>
 				<div class="grid_4">
@@ -180,10 +181,10 @@
 						<time datetime="2021-01-01"><span class="col1">2021</span>January</time>
 						<div class="">
 							<div class="extra_wrapper">
-								<div class="title col1"><a href="#">AAAI 2021</a></div>
+								<button class="title collapsible col1">AAAI 2021</button>
 							</div>
 						</div>
-						<div class="clear"></div>
+						<div class="content"></div>
 						<p>Two papers at AAAI 2021, on disease forecasting using deep learning/machine learning models.</p>
 						<a href="#" class="col1">read more</a>
 					</div>
@@ -193,15 +194,30 @@
 						<time datetime="2020-12-01"><span class="col1">2020</span>December</time>
 						<div class="">
 							<div class="extra_wrapper">
-								<div class="title col1"><a href="#">COVID-19 Symptom Data Challenge</a></div>
+								<button class="title collapsible col1">COVID-19 Symptom Data Challenge</a></button>
 							</div>
 						</div>
-						<div class="clear"></div>
+						<div class="content"></div>
 						<p>Excited to announce our work (led by PhD student Alex Rodriguez) won 1st place (out of 35 global teams) in the COVID-19 Symptom Data Challenge (organized by Facebook/Catalyst Health/CMU) and 2nd place (out of 777 participants from 43 countries) in the C3AI COVID-19 Grand Challenge! Congratulations to all for this recognition</p>
 						<a href="#" class="col1">read more</a>
 					</div>
 				</div>
 			</div>
+			<br>
+			<div class= "social-media">
+				<div class= "twitter">
+					<a class="twitter-timeline" href="https://twitter.com/badityap?ref_src=twsrc%5Etfw">Tweets by badityap</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</div>
+				<div class= "icons">
+					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+					<!-- Add font awesome icons -->
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-github"></a>
+				</div>
+			</div>
+
 		</div>
 <!--==============================footer=================================-->
 		<footer>
@@ -250,6 +266,22 @@
 			}
 			init();
 			})();
+		</script>
+		<script>
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
+
+			for (i = 0; i < coll.length; i++) {
+			  coll[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var content = this.nextElementSibling;
+			    if (content.style.maxHeight){
+			      content.style.maxHeight = null;
+			    } else {
+			      content.style.maxHeight = content.scrollHeight + "px";
+			    } 
+			  });
+			}
 		</script>
 	</body>
 </html>
