@@ -71,6 +71,7 @@ width: 200px;
   line-height: 0em; 
   min-height: 0em;
   height: 2.8em;
+  width: 100%;
 }
 
 .navbar-toggle {
