@@ -1,24 +1,56 @@
 <!DOCTYPE html>
+
 <html lang="en">
-	<head>
-		<title>Publications</title>
-		<meta charset="utf-8">
-		<link rel="icon" href="images/favicon.ico">
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="css/form.css">
-		<link rel="stylesheet" href="css/style.css">
+
+<head>
+	<meta charset="utf-8">
+	<title>Members</title>
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/camera.css">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/newfunc.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/global-research.css" rel="stylesheet" type="text/css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+	    <script src="js/jquery-1.7.min.js"></script>
+	    <script src="js/jquery.easing.1.3.js"></script>
+	    <script src="js/tms-0.4.1.js"></script>
 		<script src="js/jquery.js"></script>
+		<script src="js/newfunc.js"></script>
 		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.ui.totop.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/touchTouch.jquery.js"></script>
-		<script src="js/TMForm.js"></script>
-		<script>
+		<script src="js/camera.js"></script>
+		<script src="js/snap.svg-min.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+
+		<!--<script>
 		$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+			loader: false,
+			pagination: true ,
+			minHeight: '394',
+			thumbnails: false,
+			height: '40.1875%',
+			caption: false,
+			navigation: false,
+			fx: 'mosaic'
+			});
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		})
-		</script>
+		</script>-->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -33,141 +65,89 @@
 		<!--[if lt IE 10]>
 		<link rel="stylesheet" media="screen" href="css/ie1.css">
 		<![endif]-->
-	</head>
-	<body class="">
+	
+	<body class="page1">
+
+<style type="text/css">
+table{
+width:100%;
+}
+td
+{
+vertical-align:top;
+}
+</style>
+
+</head>
+
 <!--==============================header=================================-->
-		<header>
-			<div class="container_12">
-				<div class="grid_12">
-					<a href="index.html"><img src="images/aditya-lab-logo.png" alt="Boo House"></a>
-					<div class="menu_block">
-						<nav id="bt-menu" class="bt-menu">
-							<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
-							<ul>
-								<li class="bt-icon"><a href="index.html">Home</a></li>
-								<li class="bt-icon"><a href="members.html">Members</a></li>
-								<li class="bt-icon"></li>
-								<li class="bt-icon"></li>
-								<li class="bt-icon"><a href="projects.html">Projects</a></li>
-								<li class="current bt-icon"><a href="publications.html">Publications</a></li>
-							</ul>
-						</nav>
-						<div class="clear"></div>
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-		</header>
-<!--==============================Content=================================-->
-		<div class="content cont2"><div class="ic">More Website Templates @ TemplateMonster.com - February 24, 2014!</div>
-			<div class="container_12">
-				<div class="grid_12">
-					<h2 class="mb0">Our publications</h2>
-				</div>
-			</div>
-		</div>
-		<div class="gray_block gb1">
-			<div class="container_12">
-				<!--<div class="grid_12">
-					<div class="map">
-						<figure class="">
-							<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
-						</figure>
-					</div>
-				</div>-->
-					<!--<address>
-						<dl>
-							<dt>The Company Name Inc. <br>
-								8901 Marmora Road,<br>
-								Glasgow, D04 89GR.
-							</dt>
-							<dd><span>Freephone:</span>+1 800 559 6580</dd>
-							<dd><span>Telephone:</span>+1 800 603 6035</dd>
-							<dd><span>FAX:</span>+1 800 889 9898</dd>
-							<dd><span>E-mail:</span> <a href="#" class="col3">mail@demolink.org</a></dd>
-							<dd><span>Skype:</span> <a href="#" class="col3">@skypename</a></dd>
-						</dl>
-					</address>-->
-					<br>
-					<p>
-						<a href="https://www.medrxiv.org/content/10.1101/2020.09.28.20203109v1">[1] DeepCOVID: An Operational Deep Learning-driven Framework for Explainable Real-time COVID-19 Forecasting<br>Alexander Rodríguez, Anika Tabassum, Jiaming Cui, Jiajia Xie, Javen Ho, Pulak Agarwal, Bijaya Adhikari and B. Aditya Prakash.<br>in IAAI 2021 (virtual).<br></a>
-					<br>
-						<a href="https://arxiv.org/abs/2009.11407">[2] Steering a Historical Disease Forecasting Model Under a Pandemic: Case of Flu and COVID-19<br>Alexander Rodríguez, Nikhil Muralidhar, Bijaya Adhikari, Anika Tabassum, Naren Ramakrishnan and B. Aditya Prakash.<br>in AAAI 2021 (virtual).<br></a>
-					<!-- <br>(Shorter version in NeurIPS 2020 Machine Learning in Public Health (MLPH) Workshop)</a> -->
-					<br>
-						<a href="https://dl.acm.org/doi/abs/10.5555/3398761.3398899">[3] Designing Near-Optimal Temporal Interventions to Contain Epidemics<br>
-						Prathyush Sambaturu, Bijaya Adhikari, B. Aditya Prakash, Srinivasan Venkatramanan, Anil Vullikanti.<br>
-						in AAMAS 2020, Auckland. <br></a>
-						<font color="blue">Invited to JAAMAS Special Issue (AAMAS Best papers)</font><br>
+<body style="width:1000px; padding:auto; margin:5px auto auto auto; ">
 
-					<br>
-						<a href="https://www.cc.gatech.edu/~badityap/papers/grippe-kddexplorations19.pdf">[4] Tracking and Analyzing Dynamics of News-cycles during Global Pandemics: A Historical Perspective<br>Sorour E. Amiri, Anika Tabassum, E. Thomas Ewing and B. Aditya Prakash<br>in SIGKDD Explorations. Vol 21, Issue 2. 2019.<br></a>
+<div style="background-color:#fff; position:relative;">
+	<div style="margin: 0px auto; width:450px; height: 35px; position:fixed; left: 50%; margin-left: -225px; Z-INDEX:999999;">
+		<ul class="navbar nav">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="members.html">Members</a></li>
+		  <li><a href="projects.html">Projects</a></li>
+		  <li><a href="publications.html">Publications</a></li>
+		</ul>
+	</div>
+</div>
 
-					<br>
-						<a href="https://www.cc.gatech.edu/~badityap/papers/hai-ploscbio19.pdf">[5] Fast and Near-Optimal Monitoring for Healthcare Acquired Infection Outbreaks<br>Bijaya Adhikari, Bryan Lewis, Anil Vullikanti, Jose Mauricio Jimenez, and B. Aditya Prakash<br>in PLoS Computational Biology. 2019.<br></a>
+<div style="background-color:#fff; position:relative;">
+	<div style="margin: 0px auto; width:1000px;height: 190px; position:relative; ">
+		<img style="position:absolute; left: auto; top: 40px;" src="images/aditya-lab-logo.png" width="300" height="120"  />
+		<img style="position:absolute; left: 710px; width: 240px; height: 105px; top: 48px;" src="images/gt-logo-black-gold.png" width="750" height="275" />
+	</div>
+</div>
 
-					<br>
-						<a href="https://www.cc.gatech.edu/~badityap/papers/epideep-kdd19.pdf">[6] EpiDeep: Exploiting Embeddings for Epidemic Forecasting<br>Bijaya Adhikari, Xinfeng Xu, Naren Ramakrishnan and B. Aditya Prakash<br>
-						in SIGKDD 2019, Anchorage.<br></a>
+<div class="sloganA">
+	Publications
+</div>
+<div class="container_12">
+		<br>
+		<p>
+			<a href="https://www.medrxiv.org/content/10.1101/2020.09.28.20203109v1" style="color:#000000">[1] DeepCOVID: An Operational Deep Learning-driven Framework for Explainable Real-time COVID-19 Forecasting<br>Alexander Rodríguez, Anika Tabassum, Jiaming Cui, Jiajia Xie, Javen Ho, Pulak Agarwal, Bijaya Adhikari and B. Aditya Prakash.<br>in IAAI 2021 (virtual).<br></a>
+		<br>
+			<a href="https://arxiv.org/abs/2009.11407" style="color:#000000">[2] Steering a Historical Disease Forecasting Model Under a Pandemic: Case of Flu and COVID-19<br>Alexander Rodríguez, Nikhil Muralidhar, Bijaya Adhikari, Anika Tabassum, Naren Ramakrishnan and B. Aditya Prakash.<br>in AAAI 2021 (virtual).<br></a>
+		<!-- <br>(Shorter version in NeurIPS 2020 Machine Learning in Public Health (MLPH) Workshop)</a> -->
+		<br>
+			<a href="https://dl.acm.org/doi/abs/10.5555/3398761.3398899" style="color:#000000">[3] Designing Near-Optimal Temporal Interventions to Contain Epidemics<br>
+			Prathyush Sambaturu, Bijaya Adhikari, B. Aditya Prakash, Srinivasan Venkatramanan, Anil Vullikanti.<br>
+			in AAMAS 2020, Auckland. <br></a>
+			<font color="blue">Invited to JAAMAS Special Issue (AAMAS Best papers)</font><br>
+		<br>
+			<a href="https://www.cc.gatech.edu/~badityap/papers/grippe-kddexplorations19.pdf" style="color:#000000">[4] Tracking and Analyzing Dynamics of News-cycles during Global Pandemics: A Historical Perspective<br>Sorour E. Amiri, Anika Tabassum, E. Thomas Ewing and B. Aditya Prakash<br>in SIGKDD Explorations. Vol 21, Issue 2. 2019.<br></a>
 
-					<br>
-						<a href="https://www.cc.gatech.edu/~badityap/papers/deepdiffuse-icdm18.pdf">[7] DeepDiffuse: Predicting the 'Who' and 'When' in Cascades<br>Mohammad R Islam, Sathappan Muthiah, Bijaya Adhikari, B. Aditya Prakash, and Naren Ramakrishnan<br> 
-						in IEEE ICDM 2018, Singapore.<br></a>
-						<font color="blue">Invited to KAIS Journal Special Issue (ICDM Best papers)</font><br>
+		<br>
+			<a href="https://www.cc.gatech.edu/~badityap/papers/hai-ploscbio19.pdf" style="color:#000000">[5] Fast and Near-Optimal Monitoring for Healthcare Acquired Infection Outbreaks<br>Bijaya Adhikari, Bryan Lewis, Anil Vullikanti, Jose Mauricio Jimenez, and B. Aditya Prakash<br>in PLoS Computational Biology. 2019.<br></a>
 
-					<br>															
-						<a href="https://www.cc.gatech.edu/~badityap/papers/dataimm-icdm17.pdf">[8] Data Driven Immunization<br>
-						Yao Zhang, Arvind Ramanathan, Anil Vullikanti, Laura Pullum, and B. Aditya Prakash.<br>
-						in IEEE ICDM 2017, New Orleans. <br></a>
+		<br>
+			<a href="https://www.cc.gatech.edu/~badityap/papers/epideep-kdd19.pdf" style="color:#000000">[6] EpiDeep: Exploiting Embeddings for Epidemic Forecasting<br>Bijaya Adhikari, Xinfeng Xu, Naren Ramakrishnan and B. Aditya Prakash<br>
+			in SIGKDD 2019, Anchorage.<br></a>
 
-					<br>
-						<a href="https://www.cc.gatech.edu/~badityap/papers/cult-kdd16.pdf">[9] Reconstructing an Epidemic over Time<br>
-						Polina Rozenshtein, Aristides Gionis, B. Aditya Prakash and Jilles Vreeken.<br>
-						in SIGKDD 2016, San Francisco<br></a>
+		<br>
+			<a href="https://www.cc.gatech.edu/~badityap/papers/deepdiffuse-icdm18.pdf" style="color:#000000">[7] DeepDiffuse: Predicting the 'Who' and 'When' in Cascades<br>Mohammad R Islam, Sathappan Muthiah, Bijaya Adhikari, B. Aditya Prakash, and Naren Ramakrishnan<br> 
+			in IEEE ICDM 2018, Singapore.<br></a>
+			<font color="blue">Invited to KAIS Journal Special Issue (ICDM Best papers)</font><br>
 
-					<br>
-						<a href="https://www.cc.gatech.edu/~badityap/papers/synsur-dami15.pdf">[10] Syndromic Surveillance of Flu on Twitter Using Weakly Supervised Temporal Topic Models<br>
-						Liangzhe Chen, K. S. M. Tozammel Hossain, Patrick Butler, Naren Ramakrishnan and B. Aditya Prakash<br>
-						in Data Mining and Knowledge Discovery Journal (DAMI), Springer. 2015.<br></a>
+		<br>															
+			<a href="https://www.cc.gatech.edu/~badityap/papers/dataimm-icdm17.pdf" style="color:#000000">[8] Data Driven Immunization<br>
+			Yao Zhang, Arvind Ramanathan, Anil Vullikanti, Laura Pullum, and B. Aditya Prakash.<br>
+			in IEEE ICDM 2017, New Orleans. <br></a>
 
-					<br>					
-				<!--<div class="grid_8">
-					<h2 class="head1">Contact Form</h2>
-					<form id="form">
-						<div class="success_wrapper">
-							<div class="success-message">Contact form submitted</div>
-						</div>
-						<label class="name">
-							<input type="text" placeholder="Name:" data-constraints="@Required @JustLetters" />
-							<span class="empty-message">*This field is required.</span>
-							<span class="error-message">*This is not a valid name.</span>
-						</label>
-						<label class="email">
-							<input type="text" placeholder="E-mail:" data-constraints="@Required @Email" />
-							<span class="empty-message">*This field is required.</span>
-							<span class="error-message">*This is not a valid email.</span>
-						</label>
-						<label class="phone">
-							<input type="text" placeholder="Phone:" data-constraints="@Required @JustNumbers"/>
-							<span class="empty-message">*This field is required.</span>
-							<span class="error-message">*This is not a valid phone.</span>
-						</label>
-						<label class="message">
-							<textarea placeholder="Message:" data-constraints='@Required @Length(min=20,max=999999)'></textarea>
-							<span class="empty-message">*This field is required.</span>
-							<span class="error-message">*The message is too short.</span>
-						</label>
-						<div>
-							<div class="clear"></div>
-							<div class="btns">
-								<a href="#" data-type="reset" class="btn">clear</a>
-								<a href="#" data-type="submit" class="btn">send</a>
-							</div>
-						</div>
-					</form>
-				</div>-->
-			</div>
-		</div>
+		<br>
+			<a href="https://www.cc.gatech.edu/~badityap/papers/cult-kdd16.pdf" style="color:#000000">[9] Reconstructing an Epidemic over Time<br>
+			Polina Rozenshtein, Aristides Gionis, B. Aditya Prakash and Jilles Vreeken.<br>
+			in SIGKDD 2016, San Francisco<br></a>
+
+		<br>
+			<a href="https://www.cc.gatech.edu/~badityap/papers/synsur-dami15.pdf" style="color:#000000">[10] Syndromic Surveillance of Flu on Twitter Using Weakly Supervised Temporal Topic Models<br>
+			Liangzhe Chen, K. S. M. Tozammel Hossain, Patrick Butler, Naren Ramakrishnan and B. Aditya Prakash<br>
+			in Data Mining and Knowledge Discovery Journal (DAMI), Springer. 2015.<br></a>
+		<br>					
+</div>
+
 <!--==============================footer=================================-->
 		<footer>
 			<div class="container_12">
@@ -185,16 +165,37 @@
 			</div>
 		</footer>
 		<script>
-		$(document).ready(function(){
-			$(".bt-menu-trigger").toggle(
+			$(document).ready(function(){
+			 $(".bt-menu-trigger").toggle(
 				function(){
-					$('.bt-menu').addClass('bt-menu-open');
+				$('.bt-menu').addClass('bt-menu-open');
 				},
 				function(){
-					$('.bt-menu').removeClass('bt-menu-open');
+				$('.bt-menu').removeClass('bt-menu-open');
 				}
 			);
-		});
+			});
+			(function() {
+			function init() {
+				showSlides(1)
+				var speed = 250,
+				easing = mina.easeinout;
+				[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+				var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+					pathConfig = {
+					from : path.attr( 'd' ),
+					to : el.getAttribute( 'data-path-hover' )
+					};
+				el.addEventListener( 'mouseenter', function() {
+					path.animate( { 'path' : pathConfig.to }, speed, easing );
+				} );
+				el.addEventListener( 'mouseleave', function() {
+					path.animate( { 'path' : pathConfig.from }, speed, easing );
+				} );
+				} );
+			}
+			init();
+			})();
 		</script>
 	</body>
 </html>

@@ -10,9 +10,8 @@
 	<link rel="stylesheet" href="css/camera.css">
 	<link rel="stylesheet" href="css/component.css">
 	<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/resetA.css" type="text/css" media="all">
-		<link rel="stylesheet" href="css/layoutA.css" type="text/css" media="all">
-		<link rel="stylesheet" href="css/styleA.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/newfunc.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,7 +20,12 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+	    <script src="js/jquery-1.7.min.js"></script>
+	    <script src="js/jquery.easing.1.3.js"></script>
+	    <script src="js/tms-0.4.1.js"></script>
 		<script src="js/jquery.js"></script>
+		<script src="js/newfunc.js"></script>
 		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.ui.totop.js"></script>
@@ -32,7 +36,7 @@
 		<script src="js/jquery.mobile.customized.min.js"></script>
 		<!--<![endif]-->
 
-		<script>
+		<!--<script>
 		$(document).ready(function(){
 			jQuery('#camera_wrap').camera({
 			loader: false,
@@ -46,7 +50,7 @@
 			});
 			$().UItoTop({ easingType: 'easeOutQuart' });
 		})
-		</script>
+		</script>-->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -77,8 +81,6 @@ vertical-align:top;
 </head>
 
 <!--==============================header=================================-->
-		
-
 <body style="width:1000px; padding:auto; margin:5px auto auto auto; ">
 
 <div style="background-color:#fff; position:relative;">
@@ -102,7 +104,38 @@ vertical-align:top;
 <div class="sloganA">
 	Recent Projects
 </div>
-<div class="container_12">
+
+<div class="slideshow-container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://c.runoob.com/wp-content/uploads/2017/01/img_mountains_wide.jpg" style="width:100%">
+    <div class="text"><a href="projects/project1.html" style="color:#FFFFFF;">Description on our Project 1</a></div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://c.runoob.com/wp-content/uploads/2017/01/img_fjords_wide.jpg" style="width:100%">
+    <div class="text"><a href="projects/project1.html" style="color:#FFFFFF;">Description on our Project 2</a></div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://c.runoob.com/wp-content/uploads/2017/01/img_nature_wide.jpg" style="width:100%">
+    <div class="text"><a href="projects/project1.html" style="color:#FFFFFF;">Description on our Project 2</a></div>
+  </div>
+
+   <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
+
+<!--<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>-->
+
+<!--<div class="container_12">
 	<div class="grid_12">
 		<div class="slider_wrapper">
 			<div id="camera_wrap">
@@ -112,7 +145,7 @@ vertical-align:top;
 			</div>
 		</div>
 	</div>
-</div>
+</div>-->
 
 <br>
 <br>
@@ -203,14 +236,14 @@ vertical-align:top;
 -->
 <div class="gray_block">
 	<div class="sloganA">
-		News
+		<br>News
 	</div>
 	<div class="container_12">
-		<br><br>
+		<br>
 		<div class="grid_7">
 			<div class= "social-media">
 				<div class= "twitter">
-					<a class="twitter-timeline" href="https://twitter.com/badityap?ref_src=twsrc%5Etfw" data-width="600" data-height="600" >Tweets by badityap</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+					<a class="twitter-timeline" href="https://twitter.com/badityap?ref_src=twsrc%5Etfw" data-width="600" data-height="780" >Tweets by badityap</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
 				</div>
 				<div class= "icons">
 					<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -223,11 +256,11 @@ vertical-align:top;
 			</div>
 		</div>
 		<div class="grid_5">
-			<div class="block2">
+			<div class="block22">
 				<time datetime="2021-02-01"><span class="col1">2021</span>February</time>
 				<div class="">
 					<div class="extra_wrapper">
-						<div class="title col1"><a href="#">National PREVENT symposium</a></div>
+						<div class="title col1"><a href="http://prevent-symposium.org">National PREVENT symposium</a></div>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -235,12 +268,12 @@ vertical-align:top;
 				<a href="#" class="col1">read more</a>
 			</div>
 		</div>
-		<div class="grid_4">
+		<div class="grid_5">
 			<div class="block2">
 				<time datetime="2021-01-01"><span class="col1">2021</span>January</time>
 				<div class="">
 					<div class="extra_wrapper">
-						<div class="title col1"><a href="#">AAAI 2021</a></div>
+						<div class="title col1"><a href="projects/project1.html">AAAI 2021</a></div>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -248,12 +281,12 @@ vertical-align:top;
 				<a href="#" class="col1">read more</a>
 			</div>
 		</div>
-		<div class="grid_4">
+		<div class="grid_5">
 			<div class="block2">
 				<time datetime="2020-12-01"><span class="col1">2020</span>December</time>
 				<div class="">
 					<div class="extra_wrapper">
-						<div class="title col1"><a href="#">COVID-19 Symptom Data Challenge</a></div>
+						<div class="title col1"><a href="https://www.symptomchallenge.org">COVID-19 Symptom Data Challenge</a></div>
 					</div>
 				</div>
 				<div class="clear"></div>
@@ -292,6 +325,7 @@ vertical-align:top;
 			});
 			(function() {
 			function init() {
+				showSlides(1)
 				var speed = 250,
 				easing = mina.easeinout;
 				[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {

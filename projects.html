@@ -1,23 +1,56 @@
 <!DOCTYPE html>
+
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Blog</title>
-		<link rel="icon" href="images/favicon.ico">
-		<link rel="shortcut icon" href="images/favicon.ico">
-		<link rel="stylesheet" href="css/style.css">
+
+<head>
+	<meta charset="utf-8">
+	<title>Members</title>
+	<link rel="icon" href="images/favicon.ico">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="css/camera.css">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/newfunc.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/global-research.css" rel="stylesheet" type="text/css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300' rel='stylesheet' type='text/css'>
+	    <script src="js/jquery-1.7.min.js"></script>
+	    <script src="js/jquery.easing.1.3.js"></script>
+	    <script src="js/tms-0.4.1.js"></script>
 		<script src="js/jquery.js"></script>
+		<script src="js/newfunc.js"></script>
 		<script src="js/jquery-migrate-1.1.1.js"></script>
 		<script src="js/jquery.equalheights.js"></script>
 		<script src="js/jquery.ui.totop.js"></script>
 		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/touchTouch.jquery.js"></script>
-		<script>
+		<script src="js/camera.js"></script>
+		<script src="js/snap.svg-min.js"></script>
+		<!--[if (gt IE 9)|!(IE)]><!-->
+		<script src="js/jquery.mobile.customized.min.js"></script>
+		<!--<![endif]-->
+
+		<!--<script>
 		$(document).ready(function(){
+			jQuery('#camera_wrap').camera({
+			loader: false,
+			pagination: true ,
+			minHeight: '394',
+			thumbnails: false,
+			height: '40.1875%',
+			caption: false,
+			navigation: false,
+			fx: 'mosaic'
+			});
 			$().UItoTop({ easingType: 'easeOutQuart' });
-			$('.gallery a.gal').touchTouch();
 		})
-		</script>
+		</script>-->
 		<!--[if lt IE 8]>
 		<div style=' clear: both; text-align:center; position: relative;'>
 			<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -32,114 +65,122 @@
 		<!--[if lt IE 10]>
 		<link rel="stylesheet" media="screen" href="css/ie1.css">
 		<![endif]-->
-	</head>
-	<body class="">
+	
+	<body class="page1">
+
+<style type="text/css">
+table{
+width:100%;
+}
+td
+{
+vertical-align:top;
+}
+</style>
+
+</head>
+
 <!--==============================header=================================-->
-		<header>
-			<div class="container_12">
-				<div class="grid_12">
-					<a href="index.html"><img src="images/aditya-lab-logo.png" alt="Boo House"></a>
-					<div class="menu_block">
-						<nav id="bt-menu" class="bt-menu">
-							<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
-							<ul>
-								<li class="bt-icon"><a href="index.html">Home</a></li>
-								<li class="bt-icon"><a href="members.html">Members</a></li>
-								<li class="bt-icon"></li>
-								<li class="bt-icon"></li>
-								<li class="current bt-icon"><a href="projects.html">Projects</a></li>
-								<li class="bt-icon"><a href="publications.html">Publications</a></li>
-							</ul>
-						</nav>
-						<div class="clear"></div>
-					</div>
-					<div class="clear"></div>
+<body style="width:1000px; padding:auto; margin:5px auto auto auto; ">
+
+<div style="background-color:#fff; position:relative;">
+	<div style="margin: 0px auto; width:450px; height: 35px; position:fixed; left: 50%; margin-left: -225px; Z-INDEX:999999;">
+		<ul class="navbar nav">
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="members.html">Members</a></li>
+		  <li><a href="projects.html">Projects</a></li>
+		  <li><a href="publications.html">Publications</a></li>
+		</ul>
+	</div>
+</div>
+
+<div style="background-color:#fff; position:relative;">
+	<div style="margin: 0px auto; width:1000px;height: 190px; position:relative; ">
+		<img style="position:absolute; left: auto; top: 40px;" src="images/aditya-lab-logo.png" width="300" height="120"  />
+		<img style="position:absolute; left: 710px; width: 240px; height: 105px; top: 48px;" src="images/gt-logo-black-gold.png" width="750" height="275" />
+	</div>
+</div>
+
+<div class="sloganA">
+	Projects
+</div>
+
+	<div class="container_12">
+		<div class="grid_12">
+			<div class="blog">
+				<img src="images/page5_img1.jpg" alt="">
+				<div class="extra_wrapper">
+					<div class="text1">
+					<a href="projects/project1.html" style="color: #003057">Forecasting COVID-19 Trajectory</a>
+					<time class="col2" datetime="2021-02-01">March, 2020</time>
+					</div>Project 1 Description
+					<br>
+					<a href="projects/project1.html" class="btn">more</a>
 				</div>
 			</div>
-		</header>
-<!--==============================Content=================================-->
-		<div class="content cont2"><div class="ic">More Website Templates @ TemplateMonster.com - February 24, 2014!</div>
-			<div class="container_12">
-				<div class="grid_12">
-					<h2 class="mb0">Our Projects</h2>
+			<div class="blog bd1">
+				<img src="images/page5_img2.jpg" alt="">
+				<div class="extra_wrapper">
+					<div class="text1">
+					<a href="projects/project1.html" style="color: #003057">Visualizing the impact of Non-pharmaceutical intervention strategies</a>
+					<time class="col2" datetime="2021-01-01">January, 2021</time>
+					</div>Project 1 Description
+					<br>
+					<a href="projects/project1.html" class="btn">more</a>
+				</div>
+			</div>
+			<div class="blog bd2">
+				<img src="images/page5_img3.jpg" alt="">
+				<div class="extra_wrapper">
+					<div class="text1">
+					<a href="projects/project1.html" style="color: #003057">Project 3</a>
+					<time class="col2" datetime="2020-12-01">December, 2020</time>
+					</div>Project 3 Description
+					<br>
+					<a href="projects/project1.html" class="btn">more</a>
 				</div>
 			</div>
 		</div>
-		<div class="gray_block gb1">
-			<div class="container_12">
-				<div class="grid_8">
-					<div class="blog">
-						<img src="images/covid19_logo.png" alt="" height = 250 width = 250>
-						<div class="extra_wrapper">
-							<div class="text1">
-							<a href="#">Forecasting COVID-19 Trajectory</a>
-							<time class="col2" datetime="2021-02-01">March, 2020</time>
-							</div>The Centers of Disease Control and Prevention is hosting collaborative forecasting projects related to predicting the coronavirus disease spread, and anticipate the mortality and number of hospitalizations and flu-like-symptoms caused by the disease across the country. This critically timed project comprises a handful of teams of leading data scientists, epidemiologists, statisticians, and high-performance computing researchers from national laboratories, public universities, public health institutions, and some private sector agents. We are leading two teams, one for predicting ILI burden and another for COVID mortality and hospitalizations. Our team is using deep learning models to forecast specific targets at the national, regional, state, and local levels. In addition to CDC ILI and COVID data, we are incorporating many other real-time datasets such as syndromic surveillance data and point-of-care data from major providers. We combine these datasets with domain knowledge using end-to-end deep learning models to predict targets on a weekly basis. The CDC synthesizes our weekly and monthly predictions with other models to help determine policy and other planning decisions to help communities prepare for and fight the disease. We have extensive experience with disease surveillance - we have been leading a team at the CDC FluSight challenge since 2018 (our model EpiDeep had the best performance in the HHS1 region) and have published multiple research papers on incidence prediction at major venues (see related publications below).
-							<br>
-							<a href="#" class="btn">more</a>
-						</div>
-					</div>
-					<div class="blog bd1">
-						<img src="images/page5_img2.jpg" alt="">
-						<div class="extra_wrapper">
-							<div class="text1">
-							<a href="#">Visualizing the impact of Non-pharmaceutical intervention strategies</a>
-							<time class="col2" datetime="2021-01-01">January, 2021</time>
-							</div>The rapid spread of SARS-CoV-2 has led many countries and regions to enact various interventions, such as social distancing, school closures, and border control, in order to mitigate the growth of infection. Understanding the effects of these interventions is particularly important since each strategy comes with its side effects. We wanted to understand the impact of intervention strategies and their combinations on the disease spread. California Gov. Gavin Newsom mentioned 'Localism is Determinative' for the Covid epidemic. We can clearly see that in our detailed intervention overlays over the disease trajectories of different regions. Our intervention dataset is also public, to help other any computational epidemiology or data science groups. This is a collaboration between data science, computational epidemiology, visualization and public health researchers.
-							<br>
-							<a href="#" class="btn">more</a>
-						</div>
-					</div>
-					<div class="blog bd2">
-						<img src="images/page5_img3.jpg" alt="">
-						<div class="extra_wrapper">
-							<div class="text1">
-							<a href="#">Project 3</a>
-							<time class="col2" datetime="2020-12-01">December, 2020</time>
-							</div>Project 3 Description
-							<br>
-							<a href="#" class="btn">more</a>
-						</div>
-					</div>
-				</div>
-				<!--<div class="grid_4">
-					<div class="text1 col3 head1">Categories:</div>
-					<ul class="list l1">
-						<li><a href="#">Proin pharetra luctus</a></li>
-						<li><a href="#">Diam, a scelerisque eros</a></li>
-						<li><a href="#">Maecenas vehicula egestas</a></li>
-						<li><a href="#">Duis massa elit, auctor non</a></li>
-						<li><a href="#">Aliquet sit amet eraty</a></li>
-					</ul>
-					<ul class="list l1">
-						<li><a href="#">Delto pharetra luctusum</a></li>
-						<li><a href="#">Kilom a sceleriue erosr</a></li>
-						<li><a href="#">Olikaecenas vehiculastas</a></li>
-					</ul>
-					<div class="text1 head1 col3">
-						Recent Posts:
-					</div>
-					<div class="post">
-						<div class="fl">
-							<img src="images/page5_img4.jpg" alt="">
-							<time datetime="2014-01-01">2014-01-24</time>
-						</div>
-						<div class="extra_wrapper">
-							<a href="#">Mollis erat mattisy uelisis, sit amet ultricieser rutrum. Cras facilisis, nulla veleru viverra aucto leo magna sodales felis quis</a>
-						</div>
-					</div>
-					<div class="post">
-						<div class="fl">
-							<img src="images/page5_img5.jpg" alt="">
-							<time datetime="2014-01-01">2014-01-24</time>
-						</div>
-						<div class="extra_wrapper">
-							<a href="#">Sodales felis quis alesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsannas vehicula.</a>
-						</div>
-					</div>
-				</div>-->
+		<!--<div class="grid_4">
+			<div class="text1 col3 head1">Categories:</div>
+			<ul class="list l1">
+				<li><a href="#">Proin pharetra luctus</a></li>
+				<li><a href="#">Diam, a scelerisque eros</a></li>
+				<li><a href="#">Maecenas vehicula egestas</a></li>
+				<li><a href="#">Duis massa elit, auctor non</a></li>
+				<li><a href="#">Aliquet sit amet eraty</a></li>
+			</ul>
+			<ul class="list l1">
+				<li><a href="#">Delto pharetra luctusum</a></li>
+				<li><a href="#">Kilom a sceleriue erosr</a></li>
+				<li><a href="#">Olikaecenas vehiculastas</a></li>
+			</ul>
+			<div class="text1 head1 col3">
+				Recent Posts:
 			</div>
-		</div>
+			<div class="post">
+				<div class="fl">
+					<img src="images/page5_img4.jpg" alt="">
+					<time datetime="2014-01-01">2014-01-24</time>
+				</div>
+				<div class="extra_wrapper">
+					<a href="#">Mollis erat mattisy uelisis, sit amet ultricieser rutrum. Cras facilisis, nulla veleru viverra aucto leo magna sodales felis quis</a>
+				</div>
+			</div>
+			<div class="post">
+				<div class="fl">
+					<img src="images/page5_img5.jpg" alt="">
+					<time datetime="2014-01-01">2014-01-24</time>
+				</div>
+				<div class="extra_wrapper">
+					<a href="#">Sodales felis quis alesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsannas vehicula.</a>
+				</div>
+			</div>
+		</div>-->
+	</div>
+
+
+
 <!--==============================footer=================================-->
 		<footer>
 			<div class="container_12">
@@ -157,16 +198,37 @@
 			</div>
 		</footer>
 		<script>
-		$(document).ready(function(){
-			$(".bt-menu-trigger").toggle(
+			$(document).ready(function(){
+			 $(".bt-menu-trigger").toggle(
 				function(){
-					$('.bt-menu').addClass('bt-menu-open');
+				$('.bt-menu').addClass('bt-menu-open');
 				},
 				function(){
-					$('.bt-menu').removeClass('bt-menu-open');
+				$('.bt-menu').removeClass('bt-menu-open');
 				}
 			);
-		});
+			});
+			(function() {
+			function init() {
+				showSlides(1)
+				var speed = 250,
+				easing = mina.easeinout;
+				[].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+				var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+					pathConfig = {
+					from : path.attr( 'd' ),
+					to : el.getAttribute( 'data-path-hover' )
+					};
+				el.addEventListener( 'mouseenter', function() {
+					path.animate( { 'path' : pathConfig.to }, speed, easing );
+				} );
+				el.addEventListener( 'mouseleave', function() {
+					path.animate( { 'path' : pathConfig.from }, speed, easing );
+				} );
+				} );
+			}
+			init();
+			})();
 		</script>
 	</body>
 </html>
