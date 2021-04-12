@@ -779,3 +779,5 @@ footer a:hover {
     background-position: right 0;
     outline: medium none;
 }
+nav {overflow:hidden; overflow-y:scroll;}
+nav {height:800px; width:41%;}
