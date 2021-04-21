@@ -1,0 +1,63 @@
+/*
+Original design: andreas07 (v2.0 - Jul 07, 2008) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/andreas07/
+*/
+
+/*FIRST : POSITIONNAL INFORMATION*/
+
+/* Main tags */
+/*body {margin:0; padding:0;}*/
+
+li.bConference {background: rgba(51,204,51, 0.1) }
+li.bAbstract {background: rgba(72,209,204, 0.1) }
+li.bJournal-Book {background: rgba(153,51,255, 0.1) }
+li.bReport {background: rgba(255,153,51, 0.13) }
+
+/*img {margin:10px auto 16px auto; padding:1px;}
+img{ border:1px solid }
+*/
+/* Wrap */
+#wrap {margin-bottom : 0; padding-bottom: 0;}
+
+/* Left sidebar */
+/*#leftside {width:165px;  text-align:right; float:left;}
+#leftside h1 {margin:20px 18px 0 5px;  text-align:right;}
+#leftside h2, #leftside h3 {margin:0 20px 18px 5px; }
+#leftside h3 {margin:20px 18px 4px 5px; }
+#leftside p {margin:0 20px 18px 5px; }
+*/
+/* Navigation menu */
+/*#menu a {display:block; width:155px; padding:5px 10px 8px 0;}
+#menu a.active {padding:5px 10px 5px 0; }
+*/
+/* Right sidebar */
+/*#extras {width:200px; float:right; }
+#extras h2, #extras h3 {margin:10px 0 12px 0;  border-bottom:2px solid ;text-align:center;}
+
+#extras p {line-height:1.4em; margin: 0 0 15px 0;}
+*/
+/* Content area */
+
+
+/*SECOND: FONT INFORMATION*/
+
+/*body { font:76% Verdana,Tahoma,sans-serif;}*/
+/*#leftside h1{ font-size:1.6em; letter-spacing:-2px;}
+#leftside h2, #leftside h3 {font-size:1.1em; font-weight:bold; letter-spacing:-1px; text-align:right;}
+#leftside p { font-size:0.8em;}
+
+#menu a {font-size:1.6em; font-weight:normal; text-decoration:none; letter-spacing:-1px;}
+
+#extras h2, #extras h3 {font-size:1.6em; font-weight:400; letter-spacing:-1px; }
+
+#content h1{  font-size:3.6em; letter-spacing:-4px;}
+#content h2 {font-weight:normal; font-size:2em; letter-spacing:-1px;}
+#content h3 { font-weight:normal; font-size: 1.6em; letter-spacing:-1px;}
+*/
+
+/*THIRD: COLOR INFORMATION */
+
+.Conference{color:#006400;}
+.Abstract{color:#48d1cc;}
+.Journal-Book{color:#9933FF;}
+.Report{color:#FF9933;}
