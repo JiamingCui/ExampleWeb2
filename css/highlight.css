@@ -1,0 +1,49 @@
+@import "compass/css3";
+
+/**
+ * Use the :target pseudo-element to apply
+ * styles to the element with the same ID as  
+ * the fragment identifier.
+ * (e.g. `#target-section`)
+ * 
+ * The pseudo-element can also be used in
+ * conjunction with another selector to 
+ * define a variety of target styles.
+ * (e.g. `#target-section:target)
+ */
+
+:target {
+	-webkit-animation: target-fade 10000s;
+	-moz-animation: target-fade 10000s;
+	-o-animation: target-fade 10000s;
+	animation: target-fade 10000s;
+}
+
+
+/**
+ * Keyframe animation definition
+ * 
+ * 1. Insert a color of your choice here
+ */
+
+@-webkit-keyframes target-fade {
+	from { background-color: #FFFF00; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@-moz-keyframes target-fade {
+	from { background-color: #FFFF00; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@-o-keyframes target-fade {
+	from { background-color: #FFFF00; } /* [1] */
+	to { background-color: transparent; }
+}
+
+@keyframes target-fade {
+	from { background-color: #FFFF00; } /* [1] */
+	to { background-color: transparent; }
+}
+
+/* Demo-specific styles */
