@@ -27,22 +27,22 @@
  */
 
 @-webkit-keyframes target-fade {
-	from { background-color: #FFFF00; } /* [1] */
+	from { background-color: #FFFF88; } /* [1] */
 	to { background-color: transparent; }
 }
 
 @-moz-keyframes target-fade {
-	from { background-color: #FFFF00; } /* [1] */
+	from { background-color: #FFFF88; } /* [1] */
 	to { background-color: transparent; }
 }
 
 @-o-keyframes target-fade {
-	from { background-color: #FFFF00; } /* [1] */
+	from { background-color: #FFFF88; } /* [1] */
 	to { background-color: transparent; }
 }
 
 @keyframes target-fade {
-	from { background-color: #FFFF00; } /* [1] */
+	from { background-color: #FFFF88; } /* [1] */
 	to { background-color: transparent; }
 }
 
