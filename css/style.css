@@ -639,6 +639,14 @@ ul.list.l1+ul.list.l1 {
 	font-size: 14px;
 	line-height: 20px;
 }
+.total-container {
+	display: flex;
+	flex-direction: row;
+}
+.subright {
+	display: flex;
+	flex-direction: column;
+}
 
 /****Map***/
 
@@ -778,6 +786,10 @@ footer a:hover {
 #toTop:hover {
     background-position: right 0;
     outline: medium none;
+}
+
+.overflow {
+	overflow: hidden;
 }
 nav {overflow:hidden; overflow-y:scroll;}
 nav {height:500px; width:46%;}
