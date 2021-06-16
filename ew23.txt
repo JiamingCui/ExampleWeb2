@@ -1,0 +1,25 @@
+Remove:
+
+Death:
+'TN'
+
+Hospital:
+'FL', 'IA', 'IL', 'IN', 'NY', 'PA', 'TX'
+
+
+Risky:
+
+Death:
+'MO'
+
+Hospital:
+'DE', 'ID', 'KS', 'MA', 'MS', 'WI'
+
+
+Confidence Interval:
+
+Death:
+'UT'
+
+Hospital:
+'TN', 'WA'
