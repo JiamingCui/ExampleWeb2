@@ -163,9 +163,9 @@ a:hover {
 
 a.btn {
 	display: inline-block;
-	color: #EAAA00;
+	color: #66CCFF;
 	font: bold 18px/24px 'Open Sans Condensed', sans-serif;
-	border: 2px solid #EAAA00;
+	border: 2px solid #66CCFF;
 	padding: 5px 45px 7px;
 	margin-top: 47px;
 }
@@ -571,9 +571,9 @@ a.gal:hover img{
 	margin-top: 4px;
 	margin-right: 20px;
 	float: left;
-	border: 5px solid #EAAA00;
-	border-top-width: 8px;
-	border-bottom-width: 8px;
+	border: 2px solid #000000;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
 }
 
 .blog .text1 {
